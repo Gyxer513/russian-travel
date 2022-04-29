@@ -1,0 +1,10 @@
+.footer__autor {
+  display: flex;
+  max-width: 186px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+  margin: 92px 48px 24px 0;
+  align-items: flex-end;
+}
