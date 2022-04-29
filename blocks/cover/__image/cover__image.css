@@ -1,12 +1,12 @@
 .cover__image {
-    width: 1184px;
-    height: 740px;   
-    display: block;
-    position: absolute;
-    margin: 0 auto 0 48px;
-    z-index: 1;
-    opacity: 0.3;
+  width: 1184px;
+  height: 740px;
+  display: block;
+  position: absolute;
+  margin: 0 auto 0 48px;
+  z-index: 1;
+  opacity: 0.3;
 }
 .cover:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
