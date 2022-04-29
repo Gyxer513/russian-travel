@@ -109,10 +109,11 @@
     margin: auto;
   }
   .places {
-    margin-left: 0;
+    margin-left: auto;
   }
   .place {
     grid-template-columns: repeat(auto-fit, minmax(320px, max-content));
+    margin-left: 16px;
   }
   .place__text-paragraph {
     width: 288px;
