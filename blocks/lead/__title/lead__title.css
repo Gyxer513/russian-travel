@@ -3,7 +3,18 @@
   color: #ffff;
   max-width: 720px;
   line-height: 104%;
-  font-weight: bolder;
   margin: 56px auto 0 auto;
-  font-style: normal;
+  font-weight: 900;
+}
+@media screen and (max-width: 1279px) {
+  .lead__title {
+    margin: 48px auto 0 auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .lead__title {
+    max-width: 288px;
+    line-height: 110%;
+    font-size: 40px;
+  }
 }

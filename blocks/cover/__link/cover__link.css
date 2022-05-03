@@ -1,12 +1,13 @@
 .cover__link {
-  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 48px 0 48px;
   text-decoration: none;
-  width: 1184px;
-  height: 740px;
-  z-index: 11;
+  width: 100%;
+  padding: 200px;
+  background: rgba(0 0 0/ 0.3);
+}
+.cover__link:hover {
+  background: rgba(0 0 0/ 0.8);
 }

@@ -3,8 +3,14 @@
   font-size: 1.25em;
   font-weight: normal;
   line-height: 120%;
-  width: 640px;
+  max-width: 640px;
   margin: 32px auto 0 auto;
-  font-size: normal;
-  font-weight: normal;
+  font-weight: 400;
+}
+@media screen and (max-width: 700px) {
+  .lead__subtitle {
+    max-width: 288px;
+    line-height: 125%;
+    font-size: 16px;
+  }
 }
