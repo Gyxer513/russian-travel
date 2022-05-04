@@ -1,6 +1,5 @@
 .footer__autor {
   display: flex;
-  max-width: 186px;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
@@ -17,3 +16,4 @@
   .footer__autor {
     margin: 48px 0 24px 16px;
   }
+}

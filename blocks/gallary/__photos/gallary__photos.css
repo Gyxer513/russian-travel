@@ -9,3 +9,18 @@
   gap: 16px;
   justify-content: center;
 }
+@media screen and (max-width: 1279px) {
+  .gallary__photos {
+    max-width: 928px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .gallary__photos {
+    max-width: 720px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .gallary__photos {
+    max-width: 288px;
+  }
+}

@@ -5,3 +5,6 @@
   line-height: 18px;
   color: white;
 }
+.footer__link:hover {
+  opacity: 0.8;
+}

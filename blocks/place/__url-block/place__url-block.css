@@ -1,7 +1,9 @@
 .place__url-block {
   margin: 0;
   padding: 0;
-  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 @media screen and (max-width: 1279px) {
   .place__url-block {
