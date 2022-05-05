@@ -11,16 +11,19 @@
 }
 @media screen and (max-width: 1279px) {
   .gallary__photos {
-    max-width: 928px;
+    width: 928px; /* Размер соответствует макету */
+    gap: 14px;
   }
 }
 @media screen and (max-width: 1023px) {
   .gallary__photos {
-    max-width: 720px;
+    width: 720px; /* Размер соответствует макету */
+    gap: 16px;
   }
 }
 @media screen and (max-width: 767px) {
   .gallary__photos {
-    max-width: 288px;
+    width: 288px; /* Размер соответствует макету */
+    gap: 12px;
   }
 }

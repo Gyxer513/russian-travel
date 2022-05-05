@@ -1,26 +1,19 @@
 .lead__caption {
   color: white;
-  margin: 0;
-  padding-left: 148px;
-  padding: 0;
+  margin: 8px 0 0 0;
   text-align: start;
   font-size: 0.417em;
   line-height: 14px;
   font-weight: 400;
   letter-spacing: 1.5px;
 }
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1023px) {
   .lead__caption {
-    margin: 0 0 0 48px;
+    margin-left: 24px;
   }
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .lead__caption {
-    margin: 0 0 0 24px;
-  }
-}
-@media screen and (max-width: 340px) {
-  .lead__caption {
-    margin: 0 0 0 16px;
+    margin-left: 16px;
   }
 }
