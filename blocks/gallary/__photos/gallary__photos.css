@@ -4,26 +4,26 @@
   padding: 0;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr)); /* С относительными величинами не получилось =(*/
   grid-template-rows: repeat(3, auto);
   gap: 16px;
   justify-content: center;
 }
 @media screen and (max-width: 1279px) {
   .gallary__photos {
-    width: 928px; /* Размер соответствует макету */
+    max-width: 928px; /* Размер соответствует макету */
     gap: 14px;
   }
 }
 @media screen and (max-width: 1023px) {
   .gallary__photos {
-    width: 720px; /* Размер соответствует макету */
+    max-width: 720px; /* Размер соответствует макету */
     gap: 16px;
   }
 }
 @media screen and (max-width: 767px) {
   .gallary__photos {
-    width: 288px; /* Размер соответствует макету */
+    max-width: 288px; /* Размер соответствует макету */
     gap: 12px;
   }
 }
